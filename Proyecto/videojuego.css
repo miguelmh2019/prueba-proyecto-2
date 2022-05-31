@@ -1,0 +1,46 @@
+.container{
+    background: linear-gradient(to left,#6e8d81, rgb(197, 152, 152), rgb(39, 202, 66));
+	max-width: 700px;
+	margin: auto;
+	border: 2px solid #000;
+	border-radius: 20px;
+	display: flex;
+	padding: 20px 0;
+	text-align: center;	
+}
+
+.izquierdo{
+	width: 70%;
+	font-size: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.derecha{
+    
+	width: 30%;
+    height: 80%;
+   
+}
+ 
+.msj{
+	font-size: 40px;
+	height: 50px;
+}
+
+.opcion{    
+	width: 80px;
+	height: 80px;
+	border: 1px solid  #000;
+	font-size: 50px;
+	margin-bottom: 20px;
+	border-color: white;
+	border-bottom-color: aqua;
+	cursor: pointer;
+	background-color: #000;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

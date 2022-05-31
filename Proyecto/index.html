@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videojuego | Inicio</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./videojuego.css">    
+</head>
+<body>
+    <header>        
+            <section class="wrapper">                
+                <h1 class="page-title">Sitio Web Didáctico</h1>           
+                <img src="./Logo.gif" class="logo" alt="">                       
+                <nav>                      
+                    <a href="index.html">Inicio|</a>               
+                    <a href="">Descripción|</a></li>                
+                    <a href="./mision.html">Mision|</a>                
+                    <a href="">Valores|</a></li>                
+                    <a href="./contacto.html">Contacto|</a>          
+                </nav>              
+            </section>    
+    </header>  
+    <main>
+        <section class="game wrapper">
+            <div class="game-item-1">
+                <p class="game-description"> El juego consiste en una suma y 3 opciones a escojer como respuesta a esta suma, te deseamos mucha suerte.</p>               
+            </div>
+            <div class="game-item-2">
+                <div class="container">
+                    <div class="izquierdo">                        
+                        <div class="container-operacion">
+                             <span id="suma">20 + 20 =</span>
+                             <span class="resultado" id="resultado"> 40</span>
+                         </div>
+                         <span  id="msj" class="msj">excelente!! </span>
+                    </div>            
+                         <div class="derecha">
+                         <span id="opcion1" class="opcion" onclick="controlarRespuesta(this)" >40</span>
+                        <span id="opcion2" class="opcion" onclick="controlarRespuesta(this)" >40</span>
+                        <span id="opcion3" class="opcion" onclick="controlarRespuesta(this)" >40</span>                    
+                    </div>
+                <script src="script.js"></script>               
+            </div>                        
+        </section>       
+    </main>    
+    <footer>
+
+    </footer>    
+</body>
+</html>
