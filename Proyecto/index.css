@@ -130,6 +130,10 @@
             padding-top: .33rem;
         }
 
+        main {
+            height: 48rem;
+        }
+
         footer {
             height: 9.32rem;
         }
@@ -146,13 +150,35 @@
         nav a {
             font-size: 0.75rem;
         }
+
+        .game-item-1 {
+            border: 0.23rem dashed red; 
+            height: 17.92rem;
+            border-radius: 10px;    
+            padding: 0 0.35rem;                
+        }
+        
+        .game-item-2 {
+            border: 0.23rem dashed red;            
+            height: 31.22rem;
+            border-radius: 10px; 
+            margin-left: 0.07rem;                    
+        }
+
+        .game-description {
+            font-size: 0.87rem;
+        }
     }
     
     @media screen and (min-width: 301px) and (max-width: 800px) {
         header {
             height: 14.2rem;
             padding-top: 0.42rem;
-        }    
+        }
+        
+        main {
+            height: 48rem;
+        }
     
         footer {
             height: 10.76rem;
