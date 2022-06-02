@@ -131,7 +131,7 @@
         }
 
         main {
-            height: 48rem;
+            height: 41rem;
         }
 
         footer {
@@ -196,14 +196,14 @@
         .game-item-1 {
             border: 0.23rem dashed red; 
             height: 17.92rem;
-            border-radius: 10px;    
+            border-radius: 12px;    
             padding: 0 0.35rem;                
         }
         
         .game-item-2 {
             border: 0.23rem dashed red;            
             height: 31.22rem;
-            border-radius: 10px; 
+            border-radius: 12px; 
             margin-left: 0.07rem;                    
         }
 
