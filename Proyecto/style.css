@@ -21,7 +21,7 @@
     
     header {    
         width: 100%;    
-        height:19.6rem;
+        height:19.4rem;
         padding-top: 0.5rem;      
         background: linear-gradient(70deg, red, whitesmoke);       
         /* position: fixed;
@@ -34,13 +34,7 @@
         background-color: whitesmoke;
         padding: 1.5rem 0; 
         /* z-index: 1; */                 
-    }
-    
-    .content {
-        width: 100%;
-        height: 57rem;
-        background-color: whitesmoke;
-    }
+    }  
     
     footer {
         width: 100%;
@@ -131,10 +125,11 @@
     @media screen and (max-width: 300px) {       
         header {
             height: 13.2rem;
+            padding-top: .33rem;
         }        
        
         footer {
-            height: 9.21rem;
+            height: 9.32rem;
         }
         
         .logo {
@@ -151,13 +146,14 @@
         }
     }
     
-    @media screen and (min-width: 301px) {
+    @media screen and (min-width: 301px) and (max-width: 800px) {
         header {
-            height: 14.7rem;
+            height: 14.2rem;
+            padding-top: 0.42rem;
         }        
     
         footer {
-            height: 10.26rem;
+            height: 10.76rem;
         }
     
         .logo {
