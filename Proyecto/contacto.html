@@ -8,11 +8,10 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./contacto.css">
 </head>
-<body>
-    <header>        
+    <header id="myHeader">        
       <section class="wrapper">                
           <h1 class="page-title">Sitio Web Didáctico</h1>           
-          <img src="./Logo.gif" class="logo" alt="">                      
+          <img src="./Logo.gif" class="logo" alt="">                     
       </section>
       <nav>                      
         <a href="index.html">Inicio|</a>               
@@ -20,24 +19,33 @@
         <a href="./mision.html">Mision|</a>                
         <a href="">Valores|</a></li>                
         <a href="./contacto.html">Contacto|</a>          
-    </nav>   
+      </nav>    
     </header>    
     <main>
       <section class="principal">
         <form class="form">
-            <h2>¿Tienes dudas? CONTACTANOS</h2>
-            <p type="Name:"><input placeholder="Escribe tu nombre.."></input></p>
-            <p type="Email:"><input placeholder="Pon tu email de contacto.."></input></p>
-            <p type="Message:"><input placeholder="Escribe tu duda o sugerencia.."></input></p>
+            <h2>¿Tienes dudas? </h2>
+            <h3> Contáctanos </h3>
+            <p type="Nombre:"><input placeholder="Escribe tu nombre.."></input></p>
+            <p type="Correo:"><input placeholder="Pon tu email de contacto.."></input></p>
+            <p type="Mensaje:"><input placeholder="Escribe tu duda o sugerencia.."></input></p>
             <button>Enviar</button>
-            <div>
-              <span class="fa fa-phone"></span>55 (1122-4455)
-              <span class="fa fa-envelope-o"></span> proyectojuego@pilares.com
-            </div>
-          </form>
-          <a href="tel:(55) 1122-4455" onclick="ga('send','event','Phone','Click To Call', 'Phone')" ;="" style="color:#ffffff !important; background-color:#fe0303;" class="ctc_bar" id="click_to_call_bar" "=""> 
-            <span class="icon  ctc-icon-phone"></span>LLAMAR</a>       
+            <label class="container">Un adulto me ayudó a rellenar este formulario
+              <input type="checkbox" >
+              <span class="checkmark"></span>
+            </label>
+        </form>        
       </section>
+<body> 
+      <div>
+        <span class="fa fa-phone"></span>55 (1122-4455)
+        <span class="fa fa-envelope-o"></span> proyectojuego@pilares.com
+      </div>
+      <a href="tel:(55) 1122-4455" onclick="ga('send','event','Phone','Click To Call', 'Phone')" ;
+      ="" style="color:#cc1b1b00 !important; 
+       " class="ctc_bar" id="click_to_call_bar" > 
+        <span class="icon  ctc-icon-phone"></span>LLAMAR</a>
+     <img class= "telphone"src="./pics/telphone.gif" alt="es un telefono">
     </main>
     <footer>
 
