@@ -173,7 +173,7 @@
     
     @media screen and (min-width: 301px) and (max-width: 800px) {
         header {
-            height: 14.5rem;
+            height: 14rem;
             padding-top: 0.42rem;
         }
         
@@ -191,11 +191,11 @@
         }
     
         .page-title {
-            font-size: 2.70rem;
+            font-size: 2.275rem;
         }
 
         nav a {
-            font-size: 1.25rem;
+            font-size: 1.15rem;
         }
 
         .game-item-1 {
