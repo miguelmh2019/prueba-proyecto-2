@@ -142,7 +142,11 @@
         header {
             height: 13.65rem;
             padding-top: 0.42rem;
-        }        
+        }
+        
+        main {
+            padding: 1.625;
+        }
     
         footer {
             height: 10.76rem;
