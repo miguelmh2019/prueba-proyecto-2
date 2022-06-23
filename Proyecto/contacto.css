@@ -157,12 +157,10 @@
     }
     
     main {
-        width: 100%;
-        
-        background: linear-gradient(200deg, black, whitesmoke);
+        width: 100%;      
         padding: 1.5rem 0; 
         /* z-index: 1; */
-        background: url(./pics/pizarra.png);
+        background: url(./contacto/pizarra.png);
         background-size: cover;
         background-size: 153rem;
         background-repeat: no-repeat;
@@ -209,53 +207,7 @@
         color: whitesmoke;
         padding: 0 0.3rem;
         text-decoration: none;              
-    }
-
-    .sticky {
-        position: fixed;
-        top: 0;
-        width: 100%
-      }
-    
-    .game {    
-        display: flex;
-        align-items: center;
-        justify-content: center;      
-        /* position: relative;
-        top: 25rem; */
-        /* padding: 0 1rem; */          
-    }
-    
-    .game-item-1 {
-        border: 0.3rem dashed red;    
-        width:25%;
-        height:25.6rem;
-        border-radius: 20px;    
-        background-color:antiquewhite;
-        padding: 0.5rem;
-        /* position: relative;
-        top: 11rem; */
-        display: flex;
-        align-items: center;     
-    }
-    
-    .game-item-2 {
-        border: 0.3rem dashed red;
-        width:75%;
-        height:45.6rem;
-        border-radius: 20px;    
-        background-color:antiquewhite;
-        margin-left: 0.1rem;
-        display: flex;
-        align-items: center;         
-    }
-    
-    .game-description {
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 1.12rem;   
-        font-weight: bold;
-        color: red;           
-    } 
+    }     
     
     @media screen and (max-width: 300px) {       
         header {

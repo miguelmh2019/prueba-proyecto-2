@@ -29,10 +29,9 @@
     }
     
     main {
-        width: 100%;
-        height: 57rem;
-        background: linear-gradient(200deg, black, whitesmoke);
-        padding: 1.5rem 0; 
+        width: 100%;        
+        background: palevioletred;
+        padding: 2.5rem; 
         /* z-index: 1; */                 
     }  
     
@@ -75,7 +74,45 @@
         color: whitesmoke;
         padding: 0 0.3rem;
         text-decoration: none;              
-    }     
+    }
+    
+    #page-title{
+        color: black;
+        font-family: Monotype Corsiva;
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      .content{
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+      }
+      .cont-image1{
+        text-align: center;
+        background-color: #FAE087;
+        width: 95%;
+      }
+      .image1{
+        width: 50%;
+        height: 50%;
+        }
+      
+      .cont2-image{
+        text-align: center;
+        background-color: #FAE087;
+        width: 95%;
+      }
+      .image2{
+        width: 25%;
+        height: 12%;
+        }
+      
+      li{
+        color: black;
+        font-family: Monotype Corsiva;
+        font-size: 25px;
+      }
     
     @media screen and (max-width: 300px) {       
         header {

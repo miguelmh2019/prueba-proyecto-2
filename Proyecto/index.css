@@ -79,12 +79,6 @@
         text-decoration: none;              
     }
 
-    .sticky {
-        position: fixed;
-        top: 0;
-        width: 100%
-      }
-    
     .game {    
         display: flex;
         align-items: center;
