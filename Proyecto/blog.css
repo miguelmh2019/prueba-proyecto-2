@@ -108,7 +108,7 @@
         height: 12%;
         }
       
-      .li{
+      li{
         color: black;
         font-family: Monotype Corsiva;
         font-size: 25px;
@@ -189,7 +189,7 @@
             height: 12%;
             }
           
-          .li{            
+          li{            
             font-size: 16.25px;
           }
     }
