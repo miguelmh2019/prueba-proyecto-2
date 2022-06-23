@@ -1,147 +1,308 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
- }
- html {
-     font-size: 62.5%;
- }
-label {
-    display:block;
-    margin-top:20px;
-    letter-spacing:1px;
-}
- 
-main{
-   
-    height: 77rem;
-    background: url(./pics/pizarra.png);
-    background-size: cover;
-    background-size: 153rem;
-    background-repeat: no-repeat;
-    background-position: center ;
-    background-attachment: fixed;
-
-}
-
-.form{
-    width:340px;height:440px;
-    background:#e6e6e6;
-    border-radius:8px;
-    box-shadow:0 0 40px -10px #000;
-    margin:calc(50vh - 220px) auto;
-    padding:20px 30px;
-    max-width:calc(100vw - 40px);
-    box-sizing:border-box;
-    font-family:'Montserrat',sans-serif;
-    position:relative; 
-}
-
-.container {
-    position: absolute;
-    padding-left: -35px;
-    text-align:left;
-    margin:16px 0 0;
-    cursor: pointer;
-    font-size: 1.3rem;
-    
-    
-}
-.container input {
-    position: absolute;
-    cursor: pointer;
-    height: 1.3rem;
-    width: 1.3rem;
-    opacity: 100%;
-    margin: .2rem -33rem ;
-    
-  }
-  .checkmark {
-    position: relative;
-    height: 50px;
-    width: 50px;
-  }
-h2{
-    margin:10px 0;
-    padding-bottom:11px;
-    width:200px;
-    color:#78788c;
-    border-bottom:3px solid #767688; 
-    font-size: 2rem; 
-    text-align:center;
-}
-
-h3 {  
-  color: #000;
-  width: 6rem;
-  text-align: center;
-  font-size: 1.7rem;
-}
-input{
-    width:100%;
-    padding:10px;
-    box-sizing:border-box;
-    background:none;
-    outline:none;
-    resize:none;
-    border:0;font-family:'Montserrat',sans-serif;
-    transition:all .3s;
-    border-bottom:2px solid #ee4155
-}
-input:focus{
-    border-bottom:2px solid #6c6667
-}
-p:before{
-    content:attr(type);
-    display:block;margin:28px 0 0;
-    font-size:14px;color:#5a5a5a
-}
-button{
-    float:right;
-    font-size: 1.5rem;
-    padding:8px 20px;
-    margin:60px -25px 0;
-    font-family:'Montserrat',sans-serif;
-    border:2px solid #706f6f;
-    background:0;color:#5a5a6e;
-    cursor:pointer;
-    transition:all .3s;
-}
-button:hover{
-    background:#5252ac;
-    color:#fff
-}
-div{
-    position: relative;
-    left: 14rem;
-    bottom:11rem;
-    background:#793779;
-    color:#fff;
-    width:38rem;
-    padding:1.6rem .4rem 1.6rem 0;
-    border-radius:6px;
-    font-size:1.8rem;
-    box-shadow:10px 10px 40px -14px #000
-}
-span{
-    margin: 0 5px 0 15px
-}
-.telphone{
-    position: relative;
-    width: 10rem; 
-    bottom: 23rem;
-    left: 10rem;
     }
-#click_to_call_bar {
-   
-    position: relative;
-    bottom: 16rem;
-    width: 15rem;
-    left: 12rem;
-    text-align: center;
-    display: block;
-    height: 6rem;
-    font-size: 18px;
-    line-height: 50px;
-    text-decoration: none !important;
- }
+    
+    html {
+        font-size: 62.5%;
+    }
+    
+    body {
+        font-size: 1.6rem;    
+    }
+
+    label {
+        display:block;
+        margin-top:20px;
+        letter-spacing:1px;
+    } 
+    
+    .form{
+        width:340px;height:440px;
+        background:#e6e6e6;
+        border-radius:8px;
+        box-shadow:0 0 40px -10px #000;
+        margin:calc(50vh - 220px) auto;
+        padding:20px 30px;
+        max-width:calc(100vw - 40px);
+        box-sizing:border-box;
+        font-family:'Montserrat',sans-serif;
+        position:relative; 
+    }
+    
+    .container {
+        position: absolute;
+        padding-left: -35px;
+        text-align:left;
+        margin:16px 0 0;
+        cursor: pointer;
+        font-size: 1.3rem;
+        
+        
+    }
+    .container input {
+        position: absolute;
+        cursor: pointer;
+        height: 1.3rem;
+        width: 1.3rem;
+        opacity: 100%;
+        margin: .2rem -33rem ;
+        
+      }
+      .checkmark {
+        position: relative;
+        height: 50px;
+        width: 50px;
+      }
+    h2{
+        margin:10px 0;
+        padding-bottom:11px;
+        width:200px;
+        color:#78788c;
+        border-bottom:3px solid #767688; 
+        font-size: 2rem; 
+        text-align:center;
+    }
+    
+    h3 {  
+      color: #000;
+      width: 6rem;
+      text-align: center;
+      font-size: 1.7rem;
+    }
+    input{
+        width:100%;
+        padding:10px;
+        box-sizing:border-box;
+        background:none;
+        outline:none;
+        resize:none;
+        border:0;font-family:'Montserrat',sans-serif;
+        transition:all .3s;
+        border-bottom:2px solid #ee4155
+    }
+    input:focus{
+        border-bottom:2px solid #6c6667
+    }
+    p:before{
+        content:attr(type);
+        display:block;margin:28px 0 0;
+        font-size:14px;color:#5a5a5a
+    }
+    button{
+        float:right;
+        font-size: 1.5rem;
+        padding:8px 20px;
+        margin:60px -25px 0;
+        font-family:'Montserrat',sans-serif;
+        border:2px solid #706f6f;
+        background:0;color:#5a5a6e;
+        cursor:pointer;
+        transition:all .3s;
+    }
+    button:hover{
+        background:#5252ac;
+        color:#fff
+    }
+    div{
+        position: relative;
+        left: 14rem;
+        bottom:11rem;
+        background:#793779;
+        color:#fff;
+        width:38rem;
+        padding:1.6rem .4rem 1.6rem 0;
+        border-radius:6px;
+        font-size:1.8rem;
+        box-shadow:10px 10px 40px -14px #000
+    }
+    span{
+        margin: 0 5px 0 15px
+    }
+    .telphone{
+        position: relative;
+        width: 10rem; 
+        bottom: 23rem;
+        left: 10rem;
+        }
+    #click_to_call_bar {
+       
+        position: relative;
+        bottom: 16rem;
+        width: 15rem;
+        left: 12rem;
+        text-align: center;
+        display: block;
+        height: 6rem;
+        font-size: 18px;
+        line-height: 50px;
+        text-decoration: none !important;
+     }
+    
+    .wrapper {
+        width:95%;
+        max-width: 1000px;
+        margin: auto;
+        overflow: hidden;
+    }
+    
+    header {    
+        width: 100%;    
+        height:19.65rem;
+        padding-top: 0.5rem;      
+        background: linear-gradient(120deg, red, whitesmoke);       
+        /* position: fixed;
+        z-index: 2; */              
+    }
+    
+    main {
+        width: 100%;
+        
+        background: linear-gradient(200deg, black, whitesmoke);
+        padding: 1.5rem 0; 
+        /* z-index: 1; */
+        background: url(./pics/pizarra.png);
+        background-size: cover;
+        background-size: 153rem;
+        background-repeat: no-repeat;
+        background-position: center ;
+        background-attachment: fixed;                 
+    }  
+    
+    footer {
+        width: 100%;
+        height: 13.6rem;
+        background: linear-gradient(120deg, red, whitesmoke);
+        /* z-index: 3; */
+    }
+    
+    .logo {    
+        width: 16.0rem;
+        height: 12.6rem;    
+        margin-top:0.2rem;               
+    }
+    
+    .page-title {
+        font-family:Arial, Helvetica, sans-serif;    
+        font-size: 2.75rem;   
+        color: whitesmoke;                    
+    }
+    
+    /* .main-nav {       
+        text-align: center;      
+    }
+    
+    .main-nav-item {
+        display: inline-block;
+    } */
+    
+    nav {
+        display: flex;
+        justify-content: center;            
+    }
+    
+    nav a {
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 1.55rem;
+        font-weight: bold;  
+        color: whitesmoke;
+        padding: 0 0.3rem;
+        text-decoration: none;              
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%
+      }
+    
+    .game {    
+        display: flex;
+        align-items: center;
+        justify-content: center;      
+        /* position: relative;
+        top: 25rem; */
+        /* padding: 0 1rem; */          
+    }
+    
+    .game-item-1 {
+        border: 0.3rem dashed red;    
+        width:25%;
+        height:25.6rem;
+        border-radius: 20px;    
+        background-color:antiquewhite;
+        padding: 0.5rem;
+        /* position: relative;
+        top: 11rem; */
+        display: flex;
+        align-items: center;     
+    }
+    
+    .game-item-2 {
+        border: 0.3rem dashed red;
+        width:75%;
+        height:45.6rem;
+        border-radius: 20px;    
+        background-color:antiquewhite;
+        margin-left: 0.1rem;
+        display: flex;
+        align-items: center;         
+    }
+    
+    .game-description {
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.12rem;   
+        font-weight: bold;
+        color: red;           
+    } 
+    
+    @media screen and (max-width: 300px) {       
+        header {
+            height: 13.2rem;
+            padding-top: .33rem;
+        }        
+       
+        footer {
+            height: 9.32rem;
+        }
+        
+        .logo {
+            width: 10.3rem;
+            height: 8.1rem;
+        }
+            
+        .page-title {
+            font-size: 1.85rem;
+        }
+        
+        nav a {
+            font-size: 0.75rem;
+        }
+    }
+    
+    @media screen and (min-width: 301px) and (max-width: 800px) {
+        header {
+            height: 13.65rem;
+            padding-top: 0.42rem;
+        }        
+    
+        footer {
+            height: 10.76rem;
+        }
+    
+        .logo {
+            width: 10.3rem;
+            height: 8.1rem;
+        }
+    
+        .page-title {
+            font-size: 2.275rem;
+        }
+        
+        nav a {
+            font-size: 1.15rem;
+        }
+    }
+
+
