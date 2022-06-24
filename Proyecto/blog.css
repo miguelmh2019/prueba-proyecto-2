@@ -84,7 +84,7 @@
     }
 
     .blog-url {
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-family:'Courier New', Courier, monospace;
         font-size: 1.40rem;
         text-decoration: none;
         color: black;        
