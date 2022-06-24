@@ -154,7 +154,7 @@
     
     @media screen and (min-width: 301px) and (max-width: 800px) {
         header {
-            height: 13.65rem;
+            height: 14rem;
             padding-top: 0.42rem;
         }
         
@@ -215,5 +215,14 @@
           
           li{            
             font-size: 16.25px;
+          }
+
+          .blog {                     
+            border-radius: 6.5px;
+            margin-left: 0.975rem;                                  
+          }
+    
+          .blog-url {            
+            font-size: 1.10rem;                    
           }
     }
