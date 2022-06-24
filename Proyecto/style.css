@@ -75,7 +75,21 @@
         color: whitesmoke;
         padding: 0 0.3rem;
         text-decoration: none;              
-    }     
+    }
+    
+    .blog {                        
+        background:#ED8824;
+        border-radius: 10px;
+        margin-left: 1.5rem;
+        padding: 0 0.5rem;          
+    }
+
+    .blog-url {
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.40rem;
+        text-decoration: none;
+        color: black;        
+    }
     
     @media screen and (max-width: 300px) {       
         header {

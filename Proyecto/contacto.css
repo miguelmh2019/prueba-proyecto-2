@@ -90,7 +90,7 @@
         display:block;margin:28px 0 0;
         font-size:14px;color:#5a5a5a
     }
-    button{
+    .enviar{
         float:right;
         font-size: 1.5rem;
         padding:8px 20px;
@@ -101,7 +101,7 @@
         cursor:pointer;
         transition:all .3s;
     }
-    button:hover{
+    .enviar:hover{
         background:#5252ac;
         color:#fff
     }
@@ -207,7 +207,21 @@
         color: whitesmoke;
         padding: 0 0.3rem;
         text-decoration: none;              
-    }     
+    }
+    
+    .blog {                        
+        background:#ED8824;
+        border-radius: 10px;
+        margin-left: 1.5rem;
+        padding: 0 0.5rem;          
+    }
+
+    .blog-url {
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.40rem;
+        text-decoration: none;
+        color: black;        
+    }
     
     @media screen and (max-width: 300px) {       
         header {
