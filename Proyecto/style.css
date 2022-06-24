@@ -137,4 +137,14 @@
         nav a {
             font-size: 1.15rem;
         }
+
+        .blog {                     
+            border-radius: 6.5px;
+            margin-left: 0.975rem;
+            padding: 0 0.325rem;          
+        }
+    
+        .blog-url {            
+            font-size: 0.91rem;                    
+        }
     }
