@@ -332,4 +332,125 @@ nav a {
     .blog-url {            
         font-size: 1.10rem;                    
     }
+
+    .col{
+        width: 169px;        
+        padding: 13px;
+        margin-top: 32.5px;   
+    }
+    
+    .col h2{        
+        font-size:x-large;        
+        padding-top: 13px;       
+    } 
+    
+    .col img{
+        border-radius: 130px;       
+    }
+    
+    .row{
+        margin-top: 65px;     
+    }
+    
+    .col p{
+        font-size: 14.3px;
+        padding-top: 13px;
+    } 
+    
+    .principal{        
+        top: 328.25px;
+        right: 292.65px;
+        width: 325px;
+        height: 130px;
+        opacity: 0.8;
+        border-top-left-radius: 50% 100%;
+        border-top-right-radius: 50% 100%;
+    }
+    
+    .imagen{        
+        top: 32.5px;
+        
+        width: 45.5%;
+        
+        margin-bottom: 130px;
+        
+        left: 130px;
+        
+        
+    }
+    
+    .principal h1 {
+        margin: 45.5px;    
+        font-size: 26px;
+    } 
+    
+    .art1{        
+        height: 325px;        
+    }
+    
+    .parrafo1{
+        width: 390px;
+        height: 162.5px;        
+        border-radius: 32.5px;        
+        border-width: 25.35px;
+    
+    
+    }
+    
+    .parrafo1 p{
+        margin-top: 19.5px;
+        font-size: 13px;        
+        padding-left: 19.5px;
+        padding-right: 19.5px;
+       
+    }
+    
+    .parrafo1 h1{
+        font-size: 19.5px;        
+        margin-top: 19.5px;
+    }
+    
+    .art2{        
+        height: 325px;
+        
+    }
+    
+    .parrafo2{
+        width: 390px;
+        height: 162.5px;      
+        border-radius: 32.5px;              
+    }
+    
+    .parrafo2 p{
+        margin-top: 19.5px;
+        font-size: 13px;
+        padding-left: 19.5px;
+        padding-right: 19.5px;
+    }
+    
+    .parrafo2 h1{
+        font-size: 19.5px;        
+        margin-top: 19.5px;
+    }
+    
+    .art3{        
+        height: 325px;        
+    }
+    
+    .parrafo3{
+        width: 390px;
+        height: 162.5px;        
+        border-radius: 32.5px;        
+    
+    }
+    
+    .parrafo3 p{
+        margin-top: 13px;
+        font-size: 13px;
+    }
+    
+    .parrafo3 h1{
+        font-size: 19.5px;        
+        margin-top: 19.5px;
+    }
 }
