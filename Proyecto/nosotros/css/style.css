@@ -453,4 +453,9 @@ nav a {
         font-size: 19.5px;        
         margin-top: 19.5px;
     }
+
+    .foto1 img {
+        width: 292.5px;
+        height: 260px;
+    }
 }
