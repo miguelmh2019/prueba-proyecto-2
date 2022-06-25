@@ -454,8 +454,13 @@ nav a {
         margin-top: 19.5px;
     }
 
+    .imagen img {
+        width: 65%;
+        height: 325px;
+    }
+
     .foto1 img {
         width: 60px;
         height: 67.5px;
-    }
+    }     
 }
