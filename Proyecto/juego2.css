@@ -9,7 +9,11 @@
     }
     
     body {
-        font-size: 1.6rem;    
+        font-size: 1.6rem;
+        background-color: rgb(202, 56, 56);
+        background: radial-gradient( circle, salmon) 0%, rgb(202, 56, 56) 100%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+        color: black;    
     }
     
     .wrapper {
@@ -30,12 +34,10 @@
     
     main {
         width: 100%;
-        height: 57rem;
-        background: linear-gradient(200deg, black, whitesmoke);        
-        /* z-index: 1; */
+        margin: 30px auto;
         display: flex;
-        align-items: center;        
-        /* justify-content: center; */         
+        justify-content: center;
+        align-items: center;         
     }
     
     footer {
@@ -91,47 +93,6 @@
         font-size: 1.40rem;
         text-decoration: none;
         color: black;        
-    }
-
-    .game {    
-        display: flex;
-        align-items: center;
-        justify-content: center;      
-        /* position: relative;
-        top: 25rem; */
-        /* padding: 0 1rem; */          
-    }
-    
-    .game-item-1 {
-        border: 0.3rem dashed red;    
-        width:25%;
-        height:25.6rem;
-        border-radius: 20px;    
-        background-color:antiquewhite;
-        padding: 0 0.5rem;
-        /* position: relative;
-        top: 11rem; */
-        display: flex;
-        align-items: center;     
-    }
-    
-    .game-item-2 {
-        border: 0.3rem dashed red;
-        width:75%;
-        height:45.6rem;
-        border-radius: 20px;    
-        background-color:antiquewhite;
-        margin-left: 0.1rem;
-        display: flex;
-        align-items: center;         
-    }
-    
-    .game-description {
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 1.12rem;   
-        font-weight: bold;
-        text-align: center;
-        color: red;           
     }
     
     .section1{
@@ -200,25 +161,7 @@
         
         nav a {
             font-size: 0.75rem;
-        }
-
-        .game-item-1 {
-            border: 0.21rem dashed red; 
-            height: 13.45rem;
-            border-radius: 10px;    
-            padding: 0.29rem;                
-        }
-        
-        .game-item-2 {
-            border: 0.21rem dashed red;            
-            height: 23rem;
-            border-radius: 10px; 
-            margin-left: 0.060rem;                    
-        }
-
-        .game-description {
-            font-size: 0.75rem;
-        }
+        }        
     }
     
     @media screen and (min-width: 301px) and (max-width: 800px) {
@@ -246,25 +189,7 @@
 
         nav a {
             font-size: 1.15rem;
-        }
-
-        .game-item-1 {
-            border: 0.23rem dashed red; 
-            height: 17.92rem;
-            border-radius: 12px;    
-            padding: 0 0.35rem;                
-        }
-        
-        .game-item-2 {
-            border: 0.23rem dashed red;            
-            height: 31.22rem;
-            border-radius: 12px; 
-            margin-left: 0.07rem;                    
-        }
-
-        .game-description {
-            font-size: 0.87rem;
-        }
+        }       
 
         .blog {                     
             border-radius: 6.5px;
@@ -275,7 +200,3 @@
             font-size: 1.10rem;                    
         }
     }
-
-
-
- 
