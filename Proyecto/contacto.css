@@ -213,7 +213,8 @@
         background:#ED8824;
         border-radius: 10px;
         margin-left: 1.5rem;
-        padding: 0 0.5rem;          
+        padding: 0 0.5rem;
+        float: right;          
     }
 
     .blog-url {
