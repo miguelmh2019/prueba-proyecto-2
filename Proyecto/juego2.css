@@ -202,32 +202,32 @@
         }
 
         .section1{            
-            padding: o 6.5px 6.5px 6.5px;
-            border-radius: 5.2px;
+            padding: o 3.25px 3.25px 3.25px;
+            border-radius: 2.6px;
         }        
         .game2-button{
-            height: 65px;
-            width: 65px;
-            font-size: 26px;            
+            height: 32.5px;
+            width: 32.5px;
+            font-size: 13px;            
         }
         .section2{            
-            border-top-right-radius: 5.2px;
-            border-bottom-right-radius: 5.2px;
-            width: 162.5px;
-            height: 260px;
-            padding: 0 13px;
+            border-top-right-radius: 2.6px;
+            border-bottom-right-radius: 2.6px;
+            width: 81.25px;
+            height: 130px;
+            padding: 0 6.5px;
         }
         .estadistica{
-            border: 0.65px solid black;
-            height: 68.25px;
-            border-radius: 5.2px;
+            border: 0.325px solid black;
+            height: 34.125px;
+            border-radius: 2.6px;
             padding: 5.2px 13px;            
         }
         .btnReiniciar{            
-            font-size: 23.4px;            
-            margin-left: 29.25px;
-            border: 0.65px solid black;
-            border-radius: 5.2px;
-            padding: 5.2px 13px;            
+            font-size: 11.7px;            
+            margin-left: 14.625px;
+            border: 0.325px solid black;
+            border-radius: 2.6px;
+            padding: 2.6px 6.5px;            
         }
     }
