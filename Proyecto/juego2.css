@@ -204,7 +204,12 @@
         .section1{            
             padding: o 3.25px 3.25px 3.25px;
             border-radius: 2.6px;
-        }        
+        }
+        
+        .game2-h1 {
+            font-size: 13px;
+        }
+        
         .game2-button{
             height: 32.5px;
             width: 32.5px;
