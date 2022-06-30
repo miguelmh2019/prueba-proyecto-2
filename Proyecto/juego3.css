@@ -264,21 +264,21 @@
         }
         
         .game3-h1 {  
-            margin-top: 44px;
-            margin-bottom: 22px;              
+            margin-top: 22px;
+            margin-bottom: 11px;              
         }
          
          .container {
            max-width: 250px;        
-           padding: 20px;                         
+           padding: 10px;                         
          }       
          
          .container-operadores button {           
-           margin:10px 20px;
-           height: 60px;
-           width: 60px;
+           margin:5px 10px;
+           height: 30px;
+           width: 30px;
            border-radius: 50%;
-           border: 1px solid black;           
+           border: 0.5px solid black;           
            transition: .5s;
          }
          
@@ -287,25 +287,25 @@
          }
          
          .container-operacion {
-           margin: 20px;           
-           font-size: 50px;           
-           border: 1px solid #fff;           
+           margin: 10px;           
+           font-size: 25px;           
+           border: 0.5px solid #fff;           
            box-shadow: 5px 5px 5px #000;
-           padding: 6px 0;
+           padding: 3px 0;
            }
          
          .container-operacion input {           
-           border-bottom: 1px solid rgb(38, 86, 196);
-           font-size: 45px;
-           width: 70px;           
+           border-bottom: 0.5px solid rgb(38, 86, 196);
+           font-size: 22.5px;
+           width: 35px;           
          }
          
          #corregir {           
-           font-size: 18px;
-           border: 1px solid #000;
-           padding: 10px;
+           font-size: 9px;
+           border: 0.5px solid #000;
+           padding: 5px;
            transition: .5s;
-           border-radius: 5px;           
+           border-radius: 2.5px;           
          }
          
          #corregir:hover{
@@ -313,7 +313,7 @@
          }       
          
          i{
-           font-size: 25px;           
+           font-size: 12.5px;           
            margin:5px;
          }  
          
