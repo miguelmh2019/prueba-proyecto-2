@@ -25,46 +25,43 @@
     </header>  
     <main>
         <h1 class="game3-h1"> Responde las siguientes operaciones matemáticas con la respuesta correcta</h1>        
-    <div class="container">
-      <h2>Ejercicios de Operaciones Matematicas</h2>
-      <section class="container-operadores">
-        <button class="game3-button" id="suma" onclick="btnSumar()">
-         <i class="fa-solid fa-plus"></i>
-        </button>
-        <button id="resta" onclick="btnResta()">
-          <i class="fa-solid fa-minus"></i>
-        </button>
-        <button id="producto" onclick="btnProducto()">
-          <i class="fa-solid fa-xmark"></i>
-        </button>
-        <button id="division" onclick="btnDivision()">
-          <i class="fa-solid fa-divide"></i>
-        </button>
-      </section>
-    </main>
-      <section class="container-operacion">
-        <span id="num1"></span>
-        <span id="operacion"></span>
-        <span id="num2"></span>
-        <span>=</span>
-        <input type="text" id="respuesta_usuario">
-        <button id="corregir" onclick="corregir()">Corregir</button>
-      </section>
-      
-      <section id="msj_correccion">
-      </section>
-
-      <section id="msj_correccion">
-
-      </section>
-   
-    </div>
-    
-    <script src="juego3.js"></script>
+      <div class="container">
+        <h2>Ejercicios de Operaciones Matematicas</h2>
+        <section class="container-operadores">
+          <button class="game3-button" id="suma" onclick="btnSumar()">
+          <i class="fa-solid fa-plus"></i>
+          </button>
+          <button id="resta" onclick="btnResta()">
+            <i class="fa-solid fa-minus"></i>
+          </button>
+          <button id="producto" onclick="btnProducto()">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <button id="division" onclick="btnDivision()">
+            <i class="fa-solid fa-divide"></i>
+          </button>
+        </section>    
+        <section class="container-operacion">
+          <span id="num1"></span>
+          <span id="operacion"></span>
+          <span id="num2"></span>
+          <span>=</span>
+          <input type="text" id="respuesta_usuario">
+          <button id="corregir" onclick="corregir()">Corregir</button>
+        </section>
         
-                
-    <footer>
+        <section id="msj_correccion">
+        </section>
 
-    </footer>    
+        <section id="msj_correccion">
+
+        </section>
+      </main>
+      </div>
+      
+      <script src="juego3.js"></script>       
+      <footer>
+
+      </footer>    
 </body>
 </html>
