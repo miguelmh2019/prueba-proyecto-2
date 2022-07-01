@@ -360,26 +360,31 @@ nav a {
     } 
     
     .principal{        
-        top: 468.25px;
-        right: 247.5px;
+        top: 340px;        
+        /* right: 150px; */
         width: 325px;
-        height: 130px;
+        height: 75px;
         opacity: 0.8;
         border-top-left-radius: 50% 100%;
         border-top-right-radius: 50% 100%;
+        align-content: center;
+        position: initial;
+        
+
     }
     
     .imagen{        
-        top: 25px;
-        
-        width: 70%;
-        
-        margin-bottom: 100px;
-        
-        left: 71px;
+        top: 25px;        
+        width: 70%;        
+        margin-bottom: 0px;        
+        /* left: 20px; */
+        width: 70%;        
+        float: inline-start;
+        position: initial;
         
         
     }
+    .container1 {display: flex; justify-content: center;flex-wrap: wrap; align-items: center; height: 390px}
     
     .principal h1 {
         margin: 45.5px;    
@@ -458,12 +463,25 @@ nav a {
 
     .imagen img {
         width: 360px;
-        height: 270px;
+        height: 270px;        
     }
 
     .foto1 img {
         width: 60px;
         height: 67.5px;
+        
+    }
+
+    .foto2 img {
+        width: 60px;
+        height: 67.5px;
+        
+    }
+
+    .foto3 img {
+        width: 60px;
+        height: 67.5px;
+        
     }
     
     .col img {
