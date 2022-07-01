@@ -263,7 +263,8 @@
             font-size: 1.10rem;                    
         }
         
-        .game3-h1 {  
+        .game3-h1 {
+            font-size: 130%;  
             margin-top: 22px;
             margin-bottom: 11px;              
         }
