@@ -12,7 +12,7 @@
     
     body {
         font-size: 1.6rem;
-        background-color: #000;                   
+        background-color: #000;                           
     }
     
     .wrapper {
@@ -33,7 +33,8 @@
     
     main {
         width: 100%;
-        height: 57rem;      
+        height: 57rem;
+        background-color: #000;      
     }
     
     footer {
@@ -232,8 +233,7 @@
             padding-top: 0.42rem;
         }
         
-        main {           
-            margin: 19.5px auto;
+        main {          
             height: 48rem;                     
         }
         
@@ -263,11 +263,10 @@
             font-size: 1.10rem;                    
         }
         
-        .game3-h1 {
-            padding:1px;
+        .game3-h1 {            
             font-size: 110%;  
-            margin-top: 22px;
-            margin-bottom: 11px;              
+            margin-top: 26.4px;
+            margin-bottom: 14.3px;              
         }
 
         .game3-h2 {
