@@ -430,7 +430,7 @@ nav a {
     
     .parrafo2 p{
         margin-top: 19.5px;
-        font-size: 13px;
+        font-size: 11px;
         padding-left: 19.5px;
         padding-right: 19.5px;
     }
@@ -462,8 +462,8 @@ nav a {
     }
 
     .imagen img {
-        width: 360px;
-        height: 270px;        
+        width: 160px;
+        height: 120px;        
     }
 
     .foto1 img {
